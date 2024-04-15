@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background-color: #24353f;
+
+  min-height: 100vh;
+}
+h1 {
+  color: #17a2b8;
+}
+.shadow {
+  box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+.button {
+  color: #17a2b8;
+  background-color: transparent;
+  border: #17a2b8 1px solid;
+  transition: 0.4s !important;
+}
+.button:hover {
+  background-color: #17a2b8 !important;
+  color: white !important;
+  border: none;
+}
+input {
+  background-color: transparent !important;
+  color: #17a2b8 !important;
+}

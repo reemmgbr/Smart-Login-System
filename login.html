@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/login.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="background">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 my-5 w-75 m-auto shadow-lg shadow">
+            <div class="text-center my-3">
+              <h1 class="pt-3">Smart Login System</h1>
+
+              <input
+                id="emailLogin"
+                oninput=" vaidatedata(this)"
+                placeholder="Enter Your Email"
+                type="text"
+                class="form-control my-3 w-75 m-auto"
+              />
+              <input
+                id="passwordLogin"
+                oninput=" vaidatedata(this)"
+                placeholder="Enter Your password"
+                type="password"
+                class="form-control my-3 w-75 m-auto"
+              />
+              <button id="btnlogin" class="btn btn-primary w-75 button" type="button">log in</button>
+              <p id="success" class="py-3 fw-bold"></p>
+
+              <div class="d-flex justify-content-center my-4 text-white fw-bold">
+                <p>
+                  You have an account ?
+                  <a href="./signup.html" class="text-decoration-none text-white"> Sign up</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/login.js"></script>
+  </body>
+</html>
